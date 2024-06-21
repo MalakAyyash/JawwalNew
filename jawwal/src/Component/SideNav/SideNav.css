@@ -1,0 +1,31 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:  white !important;
+    background-color: rgb(194, 39, 75);
+    border-radius: 0;
+}
+.sideNav .nav-link{
+color: white !important;
+}
+/* SideNav.css */
+.sub-menu .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+.menu .nav-link:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sideNav {
+  overflow-y: auto;
+  background-color: rgb(90, 146, 82)  ;
+}
+
+.nav-item.active .nav-link {
+  background-color: white;
+  color: black !important;
+  border-radius: 0;
+}
+
+.nav.flex-column.sub-menu.show {
+  display: block;
+}
